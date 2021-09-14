@@ -114,6 +114,7 @@ const Form = () => {
                     <input id="input4" type="text" placeholder="College Email" name="email" onChange={inputEvent} value={fullData.email}/>
                     <input id="input5" type="text" placeholder="Whatsapp Number" name="mobileNumber" onChange={inputEvent} value={fullData.mobileNumber}/>
                     <select id="select1" name="branch" onChange={inputEvent} value={fullData.branch}>
+                        <option value="BRANCH">Branch</option>
                         <option value="CSE">CSE</option>
                         <option value="CS">CS</option>
                         <option value="CSE(DS)">CSE(DS)</option>
@@ -123,6 +124,7 @@ const Form = () => {
                         <option value="ECE">ECE</option>
                     </select>
                     <select id="select2" name="residency" value={fullData.residency}  onChange={inputEvent}>
+                        <option value="RESIDENCY">Residency</option>
                         <option value="HOSTELLER">HOSTELLER</option>
                         <option value="DAY-SCHOLAR">DAY-SCHOLAR</option>
                     </select>

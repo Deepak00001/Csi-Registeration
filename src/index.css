@@ -97,7 +97,7 @@
 
  #formm{
      margin-top: 20px;
-     height: 75%;
+     height: 85%;
      width: 90%;
      border-radius: 25px;
      background-color:#B0BAE9;
@@ -113,19 +113,20 @@
  }
  #formmain{
      width: 90%;
-     margin-top: 20%;
+     margin-top: 5%;
+     margin-left: 5%;
  }
 
  input{
-     width: 100%;
-     height: 50px;
+     width: 90%;
+     height: 40px;
      border: 3px solid;
      background: transparent;
      border-radius: 5px;
      outline: none;
      border-color: #0525BC;
      margin-top: 10px;
-     font-size: 20px;
+     font-size: 18px;
      text-decoration: none;
      /* color: tomato; */
  }
@@ -134,19 +135,19 @@
     padding: 10px;
   }
   select{
-    width: 101%;
-    height: 54px;
+    width: 91%;
+    height: 43px;
     border: 3px solid;
     background: transparent;
     color: #303B40;
     padding-left: 10px;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     border-radius: 5px;
     outline: none;
     border-color: #0525BC;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 18px;
     /* color: tomato; */
 }
 select option{
@@ -190,10 +191,11 @@ select option{
     }
     #mainright{
         width: 100%;
-        height: 100%;
+        height: 110%;
     }
     #registermain{
         font-size: 30px;
+        margin-top: -40px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -207,7 +209,9 @@ select option{
     }
     #formm{
         background-color: white;
+        height: 75%;
         opacity: 1;
+        margin-left: -3px;
     }
     input{
         width: 95%;
@@ -264,7 +268,7 @@ select option{
         color: black;
     }
     input{
-        width: 100%;
+        width: 93%;
         height: 30px;
         border: 2.5px solid;
         background: transparent;
@@ -276,7 +280,7 @@ select option{
         font-size: 14px;
     }
     select{
-        width: 102%;
+        width: 95%;
         height: 34px;
         border: 3px solid;
         background: transparent;
@@ -322,7 +326,7 @@ select option{
     }
 
     input{
-        width: 100%;
+        width: 93%;
         height: 40px;
         border: 2.5px solid;
         background: transparent;
@@ -334,7 +338,7 @@ select option{
         font-size: 16px;
     }
      select{
-       width: 101%;
+       width: 95%;
        height: 44px;
        border: 3px solid;
        background: transparent;
