@@ -101,7 +101,7 @@ const Form = () => {
 
     const onSubmit = (event) => {
         event.preventDefault();
-        alert("Form Submited")
+        
     }
 
     return(
@@ -129,7 +129,9 @@ const Form = () => {
                         <option value="DAY-SCHOLAR">DAY-SCHOLAR</option>
                     </select>
                     <div id="btn">
+                        <div className="btnborder">
                     <Button  type="submit" variant="contained" size="large" className={classes.button} id="submitbtn">Submit</Button>
+                    </div>
                     </div>
                 </form>
             </div>
