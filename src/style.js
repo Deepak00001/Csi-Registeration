@@ -9,5 +9,6 @@ export default makeStyles(() => ({
         backgroundColor: "white",
         color: "#0525BC"
       }
-    }
+    
+    },
 }))

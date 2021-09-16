@@ -115,6 +115,8 @@
      width: 90%;
      margin-top: 5%;
      margin-left: 5%;
+     width: 90%;
+
  }
 
  input{
@@ -133,6 +135,18 @@
  input::placeholder {
     color: #303B40;
     padding: 10px;
+  }
+  #outlined-basic{
+    width: 20vw;
+    height: 10vh;
+    border: 3px solid;
+    background: transparent;
+    border-radius: 5px;
+    outline: none;
+    border-color: #0525BC;
+    margin-top: 10px;
+    font-size: 18px;
+    text-decoration: none;
   }
   select{
     width: 91%;
@@ -185,6 +199,7 @@ select option{
     #main1{
         width: 85%;
         height: 90%;
+        background-size: cover;
         border: 3.2px solid;
         border-radius: 50px;
         border-color: #0525BC;
@@ -225,6 +240,7 @@ select option{
         margin-left: auto;
         font-size: 12px;
     }
+    
     select{
         width: 97%;
         height: 39px;
