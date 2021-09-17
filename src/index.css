@@ -127,12 +127,14 @@ input{
    border-color: #0525BC;
    margin-top: 10px;
    font-size: 18px;
+   font-weight: 550;
    text-decoration: none;
    /* color: tomato; */
 }
 input::placeholder {
-  color: #000000;
+  color: #5d5c61;
   padding: 10px;
+  font-weight: 400;
 }
 #outlined-basic{
   width: 20vw;
@@ -151,7 +153,8 @@ select{
   height: 43px;
   border: 3px solid;
   background: transparent;
-  color: #303B40;
+  color: black;
+  font-weight: 550;
   padding-left: 10px;
   font-size: 18px;
   text-decoration: none;
@@ -162,8 +165,10 @@ select{
   font-size: 18px;
   /* color: tomato; */
 }
+
 select option{
   background-color: #7488e2;
+  color: black;
 }
 #btn {
   display: flex;
@@ -221,9 +226,9 @@ margin-bottom: 20px;
   }
   #registermain2{
       display: block;
-      height: 10vh;
+      height: 8vh;
       width: 14vw;
-      margin-right: 4vw;
+      margin-right: 2vw;
   }
   #formm{
       background-color: white;
@@ -243,12 +248,13 @@ margin-bottom: 20px;
       margin-left: auto;
       font-size: 12px;
       text-align: center;
+      color: black;
   }
   
   select{
       width: 97%;
       height: 6.4vh;
-      border: 3px solid;
+      border: 2.5px solid;
       background: transparent;
       color: #303B40;
       padding-left: 10px;

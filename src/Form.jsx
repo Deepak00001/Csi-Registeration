@@ -1,5 +1,5 @@
 import React, { useState }  from "react";
-import { Button, TextField } from "@material-ui/core";
+import { Button, colors, TextField } from "@material-ui/core";
 import useStyle from './style'
 
 const Form = () => {
@@ -114,7 +114,7 @@ const Form = () => {
                     <input id="input4" type="text" placeholder="College Email" name="email" onChange={inputEvent} value={fullData.email}/>
                     <input id="input5" type="text" placeholder="Whatsapp Number" name="mobileNumber" onChange={inputEvent} value={fullData.mobileNumber}/>
                     <select id="select1" name="branch" onChange={inputEvent} value={fullData.branch}>
-                        <option value="BRANCH">Branch</option>
+                        <option style={{color: "#5d5c61"}} value="BRANCH">Branch</option>
                         <option value="CSE">CSE</option>
                         <option value="CS">CS</option>
                         <option value="CSE(DS)">CSE(DS)</option>
