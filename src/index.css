@@ -198,6 +198,7 @@ margin-bottom: 20px;
   }
   #main {
       background-image: url(../src/img/mobilebg.png);
+      overflow: auto;
   }
   #main1{
       width: 85%;
@@ -206,7 +207,7 @@ margin-bottom: 20px;
       border: 3.2px solid;
       border-radius: 50px;
       border-color: #0525BC;
-      overflow: auto;
+      
       background-color: white;
       opacity: 0.7;
       
